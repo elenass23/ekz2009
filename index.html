@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>главная</title>
+		<style>
+			/* CSS-стили */
+		.container1{ 
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding: 5px;
+			font-size: 2em;
+		}
+		.container2{
+			background-color: white;
+			min-height: 400px;font-size: 1.5em;
+		}
+		
+		.container3{
+			display: flex;
+		}
+		.container4{
+			display: flex;
+			font-size: 1.5em;
+			justify-content: space-around;
+		}
+		.container5{ 
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding: 15px;
+			background-color: thistle;
+			font-size: 1.5em;
+		}
+		.container6{
+			display: flex; 
+			justify-content: space-around;
+			padding: 50px;
+		}
+		body{
+			background: url('fon.jpg') no-repeat;
+			margin: 0;
+		}
+		.menu{
+			display: flex;
+			list-style: none;
+		}
+		.menu a{
+			color: black;
+			text-decoration: none;
+			display: block;
+			padding: 10px 100px;
+		}
+		.fon{
+		min-height: 500px;
+		}
+		
+		h1, h2, h3{
+			color: indigo;
+		}
+		
+		.block1{width: 50%;
+			font-size: 1.5em;	
+			padding: 200px 50px;
+		}
+		.block2, .block3{
+			display: flex; 
+			flex-direction: column;
+			padding: 0px 30px;
+		}
+		.row1,.row2, .row3,.row4,.row5,.row6,.row7, .row8,.row9,.row10{
+			display: flex; 
+			align-items: center;
+			justify-content: space-between;
+		}
+		.block5{
+			background: indigo;
+			 min-width: 500px;
+			font-size: 1.5em;
+		}
+		.block4{
+			font-size: 1.5em;
+		}
+		.block6 {
+			display: flex; 
+			justify-content: space-between;
+			padding: 40px;
+		}
+		.column1, column2{
+		}
+		.but1{
+			background: white;
+			color: indigo; 
+			height: 40px;
+			font-size: 1.1em;
+			border-radius: 8px;
+			margin: 75px 0px;
+		}
+		.field{
+			height: 40px;
+			width: 400px;
+			font-size: 1em;
+			border-radius: 8px;
+		}
+		.app{
+			color: white;
+		}
+		.s2{height: 40px;
+			width: 400px;
+			font-size: 1em;
+			border-radius: 8px;
+		}
+		.choice{
+			white;
+			color: indigo; 
+			height: 40px;
+			font-size: 1.1em;
+			border-radius: 8px;
+			margin: 0px 20px;
+		}
+		.but{
+			background: indigo;
+				color: white; 
+				height: 40px;
+				font-size: 1.1em;
+				border-radius: 8px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+		
+			<div class="container1">
+				<img src="logo.png"/>
+				<ul class="menu">
+					<li><a href="#">главная</a>
+					<li><a href="#">поиск</a></li>
+					<li><a href="#">о компании</a></li>
+				</ul>
+				<div>8(800)555-33-11</div>
+			</div>
+			<p class="fon"></p>
+			<div class="container2">
+				<h1><p align="center">Поиск жилья</p></h1>
+				<form>
+					<p align="center">
+						<input type="button" class="choice" value="комната"/> 
+						<input type="button" class="choice" value="квартира"/> 
+						<input type="button" class="choice" value="студия"/>
+						
+					</p>
+					
+					<p align="center">
+						<input type="button" class="choice" value="район"/>
+						<input type="button" class="choice" value="1"/>
+						<input type="button" class="choice" value="2"/>
+						<input type="button" class="choice" value="3+"/>
+						<input type="button" class="choice" value="цена"/>
+					</p>
+					<p align="center">
+						<input type="button" class="but" value="Поиск"/>
+					</p>
+				</form>
+			</div>	
+			<div class="container3">
+				<img src="k1.jpg" />
+				<div class="block1">
+					<h2><p align="center">О компании</p></h2>
+					<p>Агентство недвижимости "СПБ" помогает своим клиентам снять или сдать квартиру в аренду.</p>
+					<p>Главная цель компании - быстро подобрать подходящий вариант и обеспечить надёжность сделки.</p>
+					<p>Клиенты агентства недвижимости "СПБ" имеют возможность выбрать оптимальный вариант, исходя из своих потребностей и возможностей.</p>
+					<p>В распоряжении риэлторов АН "СПБ" уникальная постоянно обновляемая база аренды с сотнями вариантов.</p>
+					<p>Агентство берёт на себя обязанность по полному сопровождению сделки, помогает арендаторам и арендодателям найти друг друга и заключить грамотный договор.</p>
+				</div>
+			</div>
+			<p></p>
+			<div class="container4">
+				
+				<div class="block2">
+					<h3>Сдать жильё в Санкт-Петербурге быстро и безопасно!</h3>
+					<div class="row1">
+						<p><img src="inf1.png"/></p>
+						<p>Обращение в агентство</p>
+						<p></p>
+					</div>
+					<div class="row2">
+						<p><img src="inf2.png"/></p>
+						<p>Составление подробной заявки</p>
+						<p></p>
+					</div>
+					<div class="row3">
+						<p><img src="inf3.png"/></p>
+						<p>Подбор подходящих жильцов</p>
+						<p></p>
+					</div>
+					<div class="row4">
+						<p><img src="inf5.png"/></p>
+						<p>Показы жилья</p>
+						<p></p>
+					</div>
+					<div class="row5">
+						<p><img src="inf6.png"/></p>
+						<p>Заключение договора аренды</p>
+						<p></p>
+					</div>
+				</div>
+				<div class="block3">
+					<h3>Снять жильё в Санкт-Петербурге быстро и безопасно!</h3>
+					<div class="row6">
+						<p><img src="inf1.png"/></p>
+						<p>Обращение в агентство</p>
+						<p></p>
+					</div>
+					<div class="row7">
+						<p><img src="inf2.png"/></p>
+						<p>Составление подробной заявки</p>
+						<p></p>
+					</div>
+					<div class="row8">
+						<p><img src="inf4.png"/></p>
+						<p>Подбор подходящего жилья</p>
+						<p></p>
+					</div>
+					<div class="row9">
+						<p><img src="inf5.png"/></p>
+						<p>Просмотры жилья</p>
+						<p></p>
+					</div>
+					<div class="row10">
+						<p><img src="inf6.png"/></p>
+						<p>Заключение договора аренды</p>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<p></p>
+			<div class="container6">
+				<div class="block4">
+					
+					<h3><p align="center">Отзывы наших клиентов</p></h3>
+					<div class="block6">
+						<div class="column1">
+							<p align="center"><img src="inf7.png"/></p>
+							<p align="center">Иван, арендатор</p>
+							<p align="center">Агентство недвижимости "СПБ" помогло мне быстро найти подходящую квартиру для себя
+							и своих тридцати восьми попугайчиков.</p>
+						</div>
+						<div class="column2">
+							<p align="center"><img src="inf8.png"/></p>
+							<p align="center">Анна, арендодатель</p>
+							<p align="center">С помощью агентства недвижимости "СПБ" всегда быстро нахожу вежливых и аккуратных 
+							жильцов в свои квартиры.</p>
+						</div>
+					</div>
+				</div>
+				<div class="block5">
+					<p align="center" class="app">Ждём Вашу заявку!</p>
+					<form>
+						<p align="center"><input type="text" class="field" placeholder="Ваше имя"/></p>
+						<p align="center"><input type="tel" class="field" placeholder="Номер телефона"/></p>
+						<p align="center" ><input class="s2" list="s3" placeholder="Я хочу"></p>
+								<datalist id="s3">
+									<option>Сдать</option>
+									<option>Снять</option>
+								</datalist>
+							<p></p>
+						<p align="center"><input type="submit" class="but1" value="Отправить"/></p>
+					</form>
+				</div>
+			 </div>
+			<div class="container5">
+				<div>8(800)555-33-11</div>
+				<div>Санкт-Петербург, 2021</div>
+			</div>
+		</div>
+	</body>
+</html>
+
